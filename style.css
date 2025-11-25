@@ -1,0 +1,35 @@
+.ag{
+  display:block;
+}
+
+.ag1{
+  display:inline;
+}
+
+.container{
+  height:auto;
+  width:auto;
+  text-align: center;
+  padding:20px;
+  border: 3px solid;
+  
+
+}
+.box{
+  align-items: center;
+  display: inline-block  ;
+  width: 150px;
+  height: 300px;
+}
+
+.box1{
+ background-color:yellow
+}
+
+.box2{
+ background-color:rgb(212, 22, 63)
+}
+
+.box3{
+ background-color:rgb(26, 226, 69)
+}
