@@ -1,0 +1,12 @@
+nav ul{
+    display:flex;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+nav{
+    background-color: rgb(225, 238, 104);
+    text-align: center;
+    padding: 50px;
+}

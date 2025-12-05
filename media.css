@@ -1,0 +1,57 @@
+@media(max-width:768px){
+p {font: size 14px;}
+background-color:border-top-left-radius;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding: 1rem;
+
+}
+
+.box{
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+    align-content: center;
+    text-align: center;
+}
+
+@media(max-width:780px){
+    .box{
+        background-color: red;
+    }
+   
+}
+
+li{
+    list-style: none;
+}
+
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    padding: 10px;
+    
+}
+
+.logo{
+    color: rgb(20, 16, 241);
+    font-size: large;
+
+}
+.hamburger{
+    display: none;
+}
+
+@media(min-width:768px){
+    .menu{
+        display: flex;
+        flex-direction: row;
+        position: static;
+    }
+}
